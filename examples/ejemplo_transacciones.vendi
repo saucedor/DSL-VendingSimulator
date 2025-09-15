@@ -1,0 +1,22 @@
+// cliente compra usando monedas
+transaccion compra {
+  producto: a1;
+  pago: monedas { 10: 2, 5: 1 };
+};
+
+// admin recarga stock
+transaccion recarga {
+  producto: a1;
+  cantidad: 5;
+};
+
+// admin retira efectivo
+transaccion retiro {
+  efectivo: { 10: 2, 20: 1 };
+};
+
+// admin cambia el precio de un producto
+transaccion editar_precio {
+  producto: a1;
+  nuevo_precio: 18.50;
+};

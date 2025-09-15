@@ -8,7 +8,7 @@ class LexerError(Exception):
 
 # Definición de patrones
 tokens = [
-    (RESERVADA, r"\b(maquina|producto|precio|stock|pago|transaccion|recarga|retiro|mantenimiento|simulacion|efectivo|monedas|billetes|tarjeta|digital|capacidad|etiqueta)\b"),
+    (RESERVADA, r"\b(maquina|producto|precio|stock|pago|transaccion|recarga|retiro|compra|simulacion|efectivo|monedas|billetes|tarjeta|digital|capacidad|etiqueta|cantidad|editar_precio|nuevo_precio)\b"),
     (ESPACIO, r"[ \t\n]+"),
     (ETIQUETA, r"[a-z][0-9]"),
     (IDENTIFICADOR, r"[a-z][a-z0-9_]*"),

@@ -1,0 +1,22 @@
+// Declaración de la máquina expendedora
+maquina maquina1 {
+  capacidad: 3;
+
+  producto coca {
+    etiqueta: a1;
+    precio: 15.50;
+    stock: 5;
+  };
+
+  producto pepsi {
+    etiqueta: b2;
+    precio: 12.50;
+    stock: 3;
+  };
+
+  producto sabritas {
+    etiqueta: c3;
+    precio: 18.50;
+    stock: 2;
+  };
+};

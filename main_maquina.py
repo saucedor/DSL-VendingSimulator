@@ -1,7 +1,7 @@
 # main.py
 import sys
 from lexer import lexer
-from parser import Parser, ParserError
+from parser_maquina import Parser, ParserError
 from lexer import lexer, LexerError
 
 
