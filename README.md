@@ -3,6 +3,9 @@
 # Proyecto VendiXpress – Simulación de Máquinas Expendedoras
 Para este proyecto de Evidencia 1 en la clase de implementación de métodos computacionales, se desarrolló un un sistema que tiene como objetivo diseñar un lenguaje específico de dominio (DSL) en español para describir y simular el comportamiento de una máquina expendedora. 
 
+<img width="1192" height="1619" alt="automata" src="https://github.com/user-attachments/assets/613b1909-8114-4ebf-85a5-cf5fdb1d695c" />
+
+
 El sistema desarrollado permite:
 
 - **Definir máquinas expendedoras** mediante archivos `.vendi`, indicando nombre, capacidad máxima de productos, métodos de pago aceptados, inventario de productos y efectivo inicial.
