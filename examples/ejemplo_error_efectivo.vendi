@@ -1,0 +1,13 @@
+// Prueba errores en el inventario de efectivo (coma extra).
+
+maquina maquina1 {
+  capacidad: 1;
+
+  producto coca {
+    etiqueta: a1;
+    precio: 15.50;
+    stock: 5;
+  };
+
+  efectivo: { 1: 20, 5: 10, };  // ❌ coma extra
+};

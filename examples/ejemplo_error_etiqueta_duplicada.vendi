@@ -1,0 +1,17 @@
+//Prueba que no se pueden repetir etiquetas en distintos productos.
+
+maquina maquina1 {
+  capacidad: 2;
+
+  producto coca {
+    etiqueta: a1;
+    precio: 15.50;
+    stock: 5;
+  };
+
+  producto pepsi { 
+    etiqueta: a1;  // ❌ etiqueta duplicada
+    precio: 12.50;
+    stock: 8;
+  };
+};

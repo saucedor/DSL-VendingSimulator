@@ -1,0 +1,14 @@
+//Prueba que solo se acepten métodos de pago válidos.
+
+maquina maquina1 {
+  capacidad: 1;
+
+  producto coca {
+    etiqueta: a1;
+    precio: 15.50;
+    stock: 5;
+  };
+
+  pago: bitcoin;   // ❌ no permitido
+  efectivo: { 10: 5 };
+};

@@ -1,0 +1,18 @@
+maquina maquina1 {
+  capacidad: 2;
+
+  producto pepsi {
+    etiqueta: a1;
+    precio: 15.50;
+    stock: 8;
+  };
+
+  producto sabritas {
+    etiqueta: b2;
+    precio: 12.50;
+    stock: 10;
+  };
+
+  pago: monedas, tarjeta;
+  efectivo: { 10: 5, 20: 2 };
+};

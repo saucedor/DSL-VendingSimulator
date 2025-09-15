@@ -2,6 +2,8 @@
 import sys
 from lexer import lexer
 from parser import Parser, ParserError
+from lexer import lexer, LexerError
+
 
 def main():
     if len(sys.argv) != 2:
@@ -13,8 +15,17 @@ def main():
     
     try:
         tokens = lexer(code)
+
+        # 🔎 Depuración: imprime todos los tokens generados
+        print("=== TOKENS GENERADOS ===")
+        for t in tokens:
+            print(t)
+        print("========================\n")
+
         parser = Parser(tokens)
         parser.parse_programa()
+    except LexerError as e:
+        print("❌", e)
     except ParserError as e:
         print("❌", e)
     except Exception as e:

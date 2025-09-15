@@ -1,0 +1,17 @@
+//Prueba que no se puedan declarar más productos de los permitidos.
+
+maquina maquina1 {
+  capacidad: 1;
+
+  producto coca {
+    etiqueta: a1;
+    precio: 15.50;
+    stock: 5;
+  };
+
+  producto pepsi {
+    etiqueta: a2;
+    precio: 12.50;
+    stock: 7;
+  };
+};

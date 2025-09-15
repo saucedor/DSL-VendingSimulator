@@ -1,0 +1,11 @@
+//Prueba que el stock máximo por producto no puede ser mayor a 10.
+
+maquina maquina1 {
+  capacidad: 1;
+
+  producto coca {
+    etiqueta: a1;
+    precio: 15.50;
+    stock: 12;   // ❌ stock excede máximo
+  };
+};

@@ -1,0 +1,11 @@
+//Prueba que la etiqueta de teclado debe ser una letra minúscula + un número.
+
+maquina maquina1 {
+  capacidad: 1;
+
+  producto coca {
+    etiqueta: A1;   // ❌ mayúscula en la etiqueta
+    precio: 15.50;
+    stock: 5;
+  };
+};
